@@ -1,0 +1,27 @@
+{
+    "data": [
+
+        {
+            "login": "python",
+            "avatarUrl": "https://avatars3.githubusercontent.com/u/1525981?v=4",
+            "__typename": "Organization"
+        },
+       
+        {
+            "login": "gatsbyjs",
+            "avatarUrl": "https://avatars1.githubusercontent.com/u/12551863?v=4",
+            "__typename": "Organization"
+        },
+        {
+            "login": "tensorflow",
+            "avatarUrl": "https://avatars1.githubusercontent.com/u/15658638?v=4",
+            "__typename": "Organization"
+        },
+       
+        {
+            "login": "google",
+            "avatarUrl": "https://avatars1.githubusercontent.com/u/1342004?v=4",
+            "__typename": "Organization"
+        }
+    ]
+}
