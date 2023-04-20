@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.553d86f4.chunk.css",
-    "main.js": "/static/js/main.e4459fe7.chunk.js",
-    "main.js.map": "/static/js/main.e4459fe7.chunk.js.map",
+    "main.css": "/static/css/main.efa25bd8.chunk.css",
+    "main.js": "/static/js/main.2c9ae821.chunk.js",
+    "main.js.map": "/static/js/main.2c9ae821.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c1ddd000.js",
     "runtime-main.js.map": "/static/js/runtime-main.c1ddd000.js.map",
-    "static/js/2.23cd8f66.chunk.js": "/static/js/2.23cd8f66.chunk.js",
-    "static/js/2.23cd8f66.chunk.js.map": "/static/js/2.23cd8f66.chunk.js.map",
+    "static/js/2.336230f8.chunk.js": "/static/js/2.336230f8.chunk.js",
+    "static/js/2.336230f8.chunk.js.map": "/static/js/2.336230f8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f7c808a5a03d84c7a75d683edd7a4a1e.js": "/precache-manifest.f7c808a5a03d84c7a75d683edd7a4a1e.js",
+    "precache-manifest.0aae95726d2fc239133356ee751ecddf.js": "/precache-manifest.0aae95726d2fc239133356ee751ecddf.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.553d86f4.chunk.css.map": "/static/css/main.553d86f4.chunk.css.map",
+    "static/css/main.efa25bd8.chunk.css.map": "/static/css/main.efa25bd8.chunk.css.map",
     "static/media/1680472786872.jpeg": "/static/media/1680472786872.823619fe.jpeg",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "/static/media/address_image.16559172.svg",
@@ -46,16 +46,18 @@
     "static/media/programmer.svg": "/static/media/programmer.5faf790b.svg",
     "static/media/projects_image.svg": "/static/media/projects_image.b8ba9487.svg",
     "static/media/pwa.png": "/static/media/pwa.71408db7.png",
+    "static/media/sbs_logo.png": "/static/media/sbs_logo.4bbee142.png",
     "static/media/stanford_logo.png": "/static/media/stanford_logo.2c497738.png",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.6ac91b16.svg",
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.3fa54242.svg",
     "static/media/tiktok_logo.png": "/static/media/tiktok_logo.0993e324.png",
-    "static/media/ui_ux_design.svg": "/static/media/ui_ux_design.d6363089.svg"
+    "static/media/ui_ux_design.svg": "/static/media/ui_ux_design.d6363089.svg",
+    "static/media/uoe_logo.jpg": "/static/media/uoe_logo.5b34b029.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c1ddd000.js",
-    "static/js/2.23cd8f66.chunk.js",
-    "static/css/main.553d86f4.chunk.css",
-    "static/js/main.e4459fe7.chunk.js"
+    "static/js/2.336230f8.chunk.js",
+    "static/css/main.efa25bd8.chunk.css",
+    "static/js/main.2c9ae821.chunk.js"
   ]
 }
