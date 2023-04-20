@@ -8,8 +8,8 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Billy Byiringiro's Portfolio",
-  description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  description:'',
+    // "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
     title: "Jean Claude Billy Byiringiro Portfolio",
     type: "website",
@@ -20,10 +20,10 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Billy Byiringiro",
-  logo_name: "Byiringiro%20Billy",
+  logo_name: "#Byiringiro",
   nickname: "J.C",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  "I'm passionate about using cutting-edge technology to solve complex problems and make a positive impact on the world. With a background in artificial intelligence, computer science, and business, I'm always seeking new challenges that allow me to push the boundaries of what's possible. From ideation to execution, I love being involved in the entire process of building end-to-end products. My portfolio showcases my passion for leveraging the latest technologies and my dedication to problem-solving to create innovative solutions that make a real difference in people's lives. Explore my portfolio to discover more about my journey and the impact I'm making in the world of technology.",
   resumeLink:
     "https://www.linkedin.com/in/billy-byiringiro/", //TODO -- need a resume link to a linked in
   portfolio_repository: "https://github.com/billyjason",
@@ -69,9 +69,9 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        // "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+        // "⚡ Experience of working with Computer Vision and NLP projects",
+        // "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
       ],
       softwareSkills: [
         {
@@ -110,9 +110,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        // "⚡ Building responsive website front end using React-Redux",
+        // "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+        // "⚡ Creating application backend in Node, Express & Flask",
       ],
       softwareSkills: [
         {
@@ -192,21 +192,21 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        // "⚡ Experience working on multiple cloud platforms",
+        // "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        // "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        // "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
+          skillName: "Google Cloud Platform (GCP)", // TODO P??
           fontAwesomeClassname: "simple-icons:googlecloud",
           style: {
             color: "#4285F4",
           },
         },
         {
-          skillName: "AWS",
+          skillName: "Amazon Web Serveices (AWS)",
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
             color: "#FF9900",
@@ -260,39 +260,39 @@ const skills = {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        // "⚡ Designing highly attractive user interface for mobile and web applications",
+        // "⚡ Customizing logo designs and building logos from scratch",
+        // "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
+        // {
+        //   skillName: "Adobe XD",
+        //   fontAwesomeClassname: "simple-icons:adobexd",
+        //   style: {
+        //     color: "#FF2BC2",
+        //   },
+        // },
+        // {
+        //   skillName: "Figma",
+        //   fontAwesomeClassname: "simple-icons:figma",
+        //   style: {
+        //     color: "#F24E1E",
+        //   },
+        // },
+        // {
+        //   skillName: "Adobe Illustrator",
+        //   fontAwesomeClassname: "simple-icons:adobeillustrator",
+        //   style: {
+        //     color: "#FF7C00",
+        //   },
+        // },
+        // {
+        //   skillName: "Inkscape",
+        //   fontAwesomeClassname: "simple-icons:inkscape",
+        //   style: {
+        //     color: "#000000",
+        //   },
+        // },
       ],
     },
   ],
@@ -301,35 +301,71 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#F79F1B",
-      },
-      profileLink: "https://leetcode.com",
-    },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+  //   {
+  //     siteName: "LeetCode",
+  //     iconifyClassname: "simple-icons:leetcode",
+  //     style: {
+  //       color: "#F79F1B",
+  //     },
+  //     profileLink: "https://leetcode.com",
+  //   },
+  //   {
+  //     siteName: "HackerRank",
+  //     iconifyClassname: "simple-icons:hackerrank",
+  //     style: {
+  //       color: "#2EC866",
+  //     },
+  //     profileLink: "https://www.hackerrank.com",
+  //   },
+  //   {
+  //     siteName: "Kaggle",
+  //     iconifyClassname: "simple-icons:kaggle",
+  //     style: {
+  //       color: "#20BEFF",
+  //     },
+  //     profileLink: "https://www.kaggle.com/laymanbrother",
+  //   },
   ],
 };
 
 const degrees = {
   degrees: [
+    {
+      title: "University of oxford, Said Business School",
+      subtitle: "Master in Business Admnistration (MBA)",
+      logo_path: "sbs_logo.png",
+      alt_name: "University of Oxford, Said Business School",
+      duration: "2022 - 2023",
+      descriptions: [
+
+      ],
+      website_link: "https://www.sbs.ox.ac.uk",
+    },
+    {
+      title: "University of Oxford",
+      subtitle: "MSc in Advanced Computer Science",
+      logo_path: "ox_logo.png",
+      alt_name: "University of Oxford",
+      duration: "2021 - 2022",
+      descriptions: [
+        // "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
+        // "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
+        // "⚡ During my time at university, I was ",
+      ],
+      website_link: "https://www.ox.ac.uk",
+    },
+    {
+      title: "The university of Edinburgh",
+      subtitle: "BSc(Honours)in Artificial Intelligence and Computer Science",
+      logo_path: "uoe_logo.jpg",
+      alt_name: "University of Edinburgh",
+      duration: "2017 - 2021",
+      descriptions: [
+        // "...."
+
+      ],
+      website_link: "https://ed.ac.uk/",
+    },
     
   ],
 };
@@ -345,7 +381,9 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "\
+    // I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.\
+    ",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -372,8 +410,8 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+  description:'',
+    // "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 

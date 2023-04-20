@@ -10,9 +10,11 @@ import "./Opensource.css";
 
 class Opensource extends Component {
   render() {
+    const theme = this.props.theme;
+
     return (
       <div className="opensource-main">
-        <Header theme={this.props.theme} />
+        <Header theme={theme} />
         <Organizations theme={this.props.theme} />
         <OpensourceCharts theme={this.props.theme} />
         <PullRequests theme={this.props.theme} />

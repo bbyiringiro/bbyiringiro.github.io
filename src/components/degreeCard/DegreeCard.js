@@ -9,19 +9,19 @@ class DegreeCard extends Component {
     return (
       <div className="degree-card">
         {degree.logo_path && (
-          <Flip left duration={2000}>
+          <Fade left duration={2000}>
             <div className="card-img">
               <img
                 style={{
                   maxWidth: "100%",
                   maxHeight: "100%",
-                  transform: "scale(0.9)",
+                  transform: "scale(1.)",
                 }}
                 src={require(`../../assests/images/${degree.logo_path}`)}
                 alt={degree.alt_name}
               />
             </div>
-          </Flip>
+          </Fade>
         )}
         <Fade right duration={2000} distance="40px">
           <div
