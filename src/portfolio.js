@@ -20,7 +20,7 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Billy Byiringiro",
-  logo_name: "#Byiringiro",
+  logo_name: "#Byiringiro%20Billy",
   nickname: "J.C",
   subTitle:
   "I'm passionate about using cutting-edge technology to solve complex problems and make a positive impact on the world. With a background in artificial intelligence, computer science, and business, I'm always seeking new challenges that allow me to push the boundaries of what's possible. From ideation to execution, I love being involved in the entire process of building end-to-end products. My portfolio showcases my passion for leveraging the latest technologies and my dedication to problem-solving to create innovative solutions that make a real difference in people's lives. Explore my portfolio to discover more about my journey and the impact I'm making in the world of technology.",
