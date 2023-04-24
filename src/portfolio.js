@@ -8,8 +8,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Billy Byiringiro's Portfolio",
-  description:'',
-    // "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  description:"Welcome to the online portfolio of Billy Byiringiro, a multifaceted technologist with a strong background in computer science, artificial intelligence, and business. With a passion for innovation and an unwavering commitment to excellence, Billy is dedicated to leveraging cutting-edge technology and creative problem-solving to create lasting impact in the world of technology and business.",
   og: {
     title: "Jean Claude Billy Byiringiro Portfolio",
     type: "website",
@@ -21,13 +20,13 @@ const seo = {
 const greeting = {
   title: "Billy Byiringiro",
   logo_name: "#Byiringiro%20Billy",
-  nickname: "J.C",
+  nickname: "",
   subTitle:
-  "I'm passionate about using cutting-edge technology to solve complex problems and make a positive impact on the world. With a background in artificial intelligence, computer science, and business, I'm always seeking new challenges that allow me to push the boundaries of what's possible. From ideation to execution, I love being involved in the entire process of building end-to-end products. My portfolio showcases my passion for leveraging the latest technologies and my dedication to problem-solving to create innovative solutions that make a real difference in people's lives. Explore my portfolio to discover more about my journey and the impact I'm making in the world of technology.",
+  "Welcome to the online portfolio of Billy Byiringiro, a multifaceted technologist with a strong background in computer science, artificial intelligence, and business. With a passion for innovation and an unwavering commitment to excellence, Billy is dedicated to leveraging cutting-edge technology and creative problem-solving to create lasting impact in the world of technology and business.",
   resumeLink:
     "https://www.linkedin.com/in/billy-byiringiro/", //TODO -- need a resume link to a linked in
-  portfolio_repository: "https://github.com/billyjason",
-  githubProfile: "https://github.com/billyjason",
+  portfolio_repository: "https://github.com/bbyiringiro/",
+  githubProfile: "https://github.com/bbyiringiro/",
 };
 
 const socialMediaLinks = [
@@ -39,7 +38,7 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/billyjason",
+    link: "https://github.com/bbyiringiro/",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
@@ -66,12 +65,12 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "AI-Powered Business Solutions",
       fileName: "DataScienceImg",
       skills: [
-        // "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        // "⚡ Experience of working with Computer Vision and NLP projects",
-        // "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Design and implement advanced machine learning models to optimize business operations and uncover actionable insights.",
+        "⚡ Utilize data-driven analytics and predictive modeling to support strategic decision-making and growth initiatives.",
+        "⚡ Develop innovative algorithms and frameworks that enhance the efficiency, robustness, and scalability of AI applications.",
       ],
       softwareSkills: [
         {
@@ -96,6 +95,27 @@ const skills = {
             backgroundColor: "transparent",
           },
         },
+
+      ],
+    },
+    {
+      title: "Agile Software Engineering",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Create powerful, user-friendly web, mobile, and desktop applications using a wide range of programming languages and frameworks, ensuring the best fit for each unique project requirement.",
+        "⚡ Adopt agile methodologies to ensure efficient, maintainable, and scalable code, fostering a collaborative and iterative development process.",
+        "⚡ Seamlessly integrate front-end and back-end technologies to deliver comprehensive web solutions that cater to diverse user needs.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "devicon:cplusplus",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        
         {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
@@ -104,38 +124,22 @@ const skills = {
             color: "#3776AB",
           },
         },
-      ],
-    },
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        // "⚡ Building responsive website front end using React-Redux",
-        // "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        // "⚡ Creating application backend in Node, Express & Flask",
-      ],
-      softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Java",
+          fontAwesomeClassname: "logos-java",
           style: {
-            color: "#E34F26",
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "Flutter",
+          fontAwesomeClassname: "simple-icons:flutter",
           style: {
-            color: "#1572B6",
+            color: "#02569B",
           },
         },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
+  
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -158,21 +162,7 @@ const skills = {
             color: "#339933",
           },
         },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
+{
           skillName: "Gatsby",
           fontAwesomeClassname: "simple-icons:gatsby",
           style: {
@@ -180,22 +170,28 @@ const skills = {
           },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
           style: {
-            color: "#02569B",
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
+          style: {
+            color: "#1572B6",
           },
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud-Native Architectures",
       fileName: "CloudInfraImg",
       skills: [
-        // "⚡ Experience working on multiple cloud platforms",
-        // "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        // "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        // "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Architect scalable, secure, and high-performance web applications using industry-leading cloud platforms (AWS, Google Cloud, Azure)",
+        "⚡ Implement best practices in DevOps and MLOps to streamline deployment, testing, and monitoring of web services.",
+        "⚡ Leverage cloud-native tools and services to optimize resource usage, reduce costs, and enhance overall application performance.",
       ],
       softwareSkills: [
         {
@@ -257,28 +253,29 @@ const skills = {
       ],
     },
     {
-      title: "UI/UX Design",
+      title: "Customer-Centric Product Management",
       fileName: "DesignImg",
       skills: [
-        // "⚡ Designing highly attractive user interface for mobile and web applications",
-        // "⚡ Customizing logo designs and building logos from scratch",
-        // "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Conduct thorough user research to empathize with users, understanding their needs, preferences, and pain points.",
+        "⚡ Develop and manage product roadmaps, prioritizing features based on user feedback, performance metrics, and industry trends.",
+        "⚡ Collaborate with cross-functional teams to ensure the successful execution of product strategies, fostering a culture of customer obsession."
+        ,
       ],
       softwareSkills: [
-        // {
-        //   skillName: "Adobe XD",
-        //   fontAwesomeClassname: "simple-icons:adobexd",
-        //   style: {
-        //     color: "#FF2BC2",
-        //   },
-        // },
-        // {
-        //   skillName: "Figma",
-        //   fontAwesomeClassname: "simple-icons:figma",
-        //   style: {
-        //     color: "#F24E1E",
-        //   },
-        // },
+        {
+          skillName: "Adobe XD",
+          fontAwesomeClassname: "simple-icons:adobexd",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
+          style: {
+            color: "#F24E1E",
+          },
+        },
         // {
         //   skillName: "Adobe Illustrator",
         //   fontAwesomeClassname: "simple-icons:adobeillustrator",
@@ -356,7 +353,7 @@ const degrees = {
     },
     {
       title: "The university of Edinburgh",
-      subtitle: "BSc(Honours)in Artificial Intelligence and Computer Science",
+      subtitle: "BSc(Honours) in Artificial Intelligence and Computer Science",
       logo_path: "uoe_logo.jpg",
       alt_name: "University of Edinburgh",
       duration: "2017 - 2021",
@@ -372,6 +369,34 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "Ethereum Blockchain Developer Bootcamp",
+      subtitle: "CahinShot Academy - OxBridge Bootcamp",
+      logo_path: "chainshot_logo.png",
+      certificate_link:
+        "https://www.chainshot.com/certificates/bbyi0222",
+      alt_name: "ChainShot Certificate",
+      color_code: "#00000099",
+    },
+    {
+      title: "Advanced Google Analytics",
+      subtitle: "Google Analytics Academy",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://analytics.google.com/analytics/academy/certificate/bUs7Q1vGQZexR9oiZepiDA",
+      alt_name: "Advanced Google Analytics Certificate",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: "Google Data Studio",
+      subtitle: "Google Analytics Academy",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://analytics.google.com/analytics/academy/certificate/b66KMgL4R7io9rH0ts7Hfw",
+      alt_name: "Data Studio Certificate",
+      color_code: "#0C9D5899",
+    }
+
     
   ],
 };
@@ -381,9 +406,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "\
-    // I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.\
-    ",
+    "",
   header_image_path: "experience.svg",
   sections: [
     {

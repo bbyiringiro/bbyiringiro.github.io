@@ -96,13 +96,14 @@ export default class Main extends Component {
                 path="/home"
                 render={(props) => <Home {...props} theme={this.props.theme} />}
               />
-              <Route
+              {/* <Route
                 path="/experience"
                 exact
                 render={(props) => (
                   <Experience {...props} theme={this.props.theme} />
                 )}
-              />
+              /> */}
+              <Route path="/experience" component={RedirectExperincePage} />
               <Route
                 path="/education"
                 render={(props) => (
@@ -142,4 +143,12 @@ export default class Main extends Component {
       );
     }
   }
+}
+
+
+function RedirectExperincePage() {
+  // 👇️ redirect to external URL
+  window.location.replace('https://www.linkedin.com/in/billy-byiringiro/');
+
+  return null;
 }
