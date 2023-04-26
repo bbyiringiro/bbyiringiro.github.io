@@ -1,5 +1,63 @@
 {
   "data": [
-    
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "ThreeDots: AI-Empowered Virtual Assistant for the Visually Impaired",
+      "createdAt": "2020-02-12T16:26:54Z",
+      "url": "https://louis-threedots.github.io/website/",
+      "description": "ThreeDots is an AI-empowered virtual assistant for the visually impaired, providing an affordable and versatile solution through innovative hardware design, software development, and an SDK for interactive learning experiences.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "C++",
+          "iconifyClass": "devicon:cplusplus"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Unlocking Bayesian Machine Learning with Normalizing Flows",
+      "createdAt": "2022-03-15T16:26:54Z",
+      "url": "https://github.com/bbyiringiro/ATML_HT22",
+      "description": "Tapping into the potential of Bayesian machine learning, I extended a novel module that successfully applies Normalizing Flows to optimize Variational Inference, excelling in MNIST and CIFAR datasets.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Library Managment System",
+      "createdAt": "2015-01-06T16:26:54Z",
+      "url": "https://github.com/bbyiringiro/Library-Managment-System",
+      "description": "In high school, I developed an early web project called Library Management System, which streamlined library resource management with a user-friendly interface, allowing CRUD operations, member registration, and dynamic content loading using PHP, jQuery, JavaScript, HTML, CSS, and MySQL.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    }
   ]
 }
+
